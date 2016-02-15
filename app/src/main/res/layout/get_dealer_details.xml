@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp">
+    <include
+        android:id="@+id/toolBar"
+        layout="@layout/toolbar" />
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/border"
+
+        android:drawablePadding="5dp"
+
+android:textColor="#000000"
+        android:hint="Name"
+        android:padding="5dp"
+        android:inputType="textPersonName"
+        android:textColorHint="#828489" />
+
+    <EditText
+        android:textColor="#000000"
+        android:id="@+id/number"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/border"
+android:inputType="phone"
+        android:drawablePadding="5dp"
+
+        android:hint="Number"
+        android:padding="5dp"
+        android:textColorHint="#828489" />
+
+    <EditText
+        android:textColor="#000000"
+        android:id="@+id/emailid"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/border"
+android:inputType="textEmailAddress"
+        android:drawablePadding="5dp"
+
+        android:hint="Email Address"
+        android:padding="5dp"
+        android:textColorHint="#828489" />
+
+
+    <Button
+      android:layout_marginTop="20dp"
+        android:id="@+id/getDetailsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/button_red"
+        android:text="Get Details"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

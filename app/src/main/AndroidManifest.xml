@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.carbazaar.natasha.carbazaar">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/minor_logo"
+        android:label="carBazaar"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="carBazaar"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Search"
+            android:label="carBazaar"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CalculateEmi"
+            android:label="carBazaar"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MercedesBenz"
+            android:label="carBazaar"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Splash"
+            android:label="carBazaar"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Select"
+            android:label="Select"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Audi"
+            android:label="@string/title_activity_audi"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".MarutiSuzuki"
+            android:label="@string/title_activity_maruti_suzuki"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".R8"
+            android:label="@string/title_activity_r8"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Ciaz"
+            android:label="@string/title_activity_ciaz"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Honda"
+            android:label="@string/title_activity_honda"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".CRV"
+            android:label="@string/title_activity_crv"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Usedcar"
+            android:label="@string/title_activity_usedcar"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".City"
+            android:label="@string/title_activity_city"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Mercedes_C"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".GetDealer"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".DealerInfo"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".NewCar"
+            android:label="@string/title_activity_city"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".CommonNewCar"
+            android:label="@string/title_activity_city"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".DisplayNewCar"
+            android:label="@string/title_activity_city"
+            android:screenOrientation="portrait"></activity>
+
+            </application>
+
+</manifest>
